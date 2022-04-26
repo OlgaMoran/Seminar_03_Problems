@@ -4,7 +4,7 @@
 
 int x = new Random().Next(-100, 101);
 int y = new Random().Next(-100, 101);
-int q = 1;
+int q = 0;
 
 if(x > 0 & y > 0) q = 1;
 if(x < 0 & y > 0) q = 2;
