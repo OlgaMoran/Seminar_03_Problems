@@ -11,7 +11,7 @@ int GetValue(string text)
 
 double DistanceIn3D(int ax, int ay, int az, int bx, int by, int bz)
 {
-    return Math.Sqrt(Math.Pow(ax - bx, 2) + Math.Pow(ay - by, 2) + Math.Pow(ay - by, 2) + Math.Pow(az - bz, 2));
+    return Math.Sqrt(Math.Pow(ax - bx, 2) + Math.Pow(ay - by, 2) + Math.Pow(az - bz, 2));
 }
 
 int Ax = GetValue("Ax");
